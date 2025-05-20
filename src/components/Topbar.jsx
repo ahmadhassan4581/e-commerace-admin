@@ -1,10 +1,10 @@
 import React from 'react';
 
-
-const Topbar = () => {
+const Topbar = ({ onMenuClick }) => {
   return (
     <div className="topbar">
       <div className="topbar-left">
+        <button className="menu-button" onClick={onMenuClick}>☰</button>
         <h2>Products grid</h2>
       </div>
       <div className="topbar-right">

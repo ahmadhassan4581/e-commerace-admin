@@ -1,7 +1,5 @@
-// src/components/ProductGrid.jsx
-
 import React, { useState } from 'react';
-import dummyProducts from '../data/products'; // ✅ import from external file
+import dummyProducts from '../data/products';
 
 const ProductGrid = () => {
   const [search, setSearch] = useState('');
